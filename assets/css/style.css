@@ -454,7 +454,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 100px;
 }
 #mu-about-us .mu-about-us-area {
   display: inline;
@@ -465,95 +465,21 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  background: rgb(255, 168, 168);
-  padding: 2rem;
+  background: rgb(255, 255, 255);
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
   font-size: 40px;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: justify;
 }
-#mu-about-us .mu-about-us-area .mu-about-us-left ul {
-  margin-left: 25px;
-  margin-bottom: 15px;
+#mu-about-us .mu-about-us-area .mu-about-us-left p {
+  text-align: justify;
+  font-size: 19px;
 }
-#mu-about-us .mu-about-us-area .mu-about-us-left ul li {
-  line-height: 30px;
-  list-style: circle;
-}
+
 #mu-about-us .mu-about-us-area .mu-about-us-right {
-  display: inline;
-  float: left;
-  width: 100%;
-  display: block;
-  width: 100%;
-  background-color: #ccc;
-}
-#mu-about-us .mu-about-us-area .mu-about-us-right a {
-  display: block;
-  width: 100%;
-  position: relative;
-}
-#mu-about-us .mu-about-us-area .mu-about-us-right a img {
-  width: 100%;
-}
-#mu-about-us .mu-about-us-area .mu-about-us-right a:after {
-  background-color: rgba(0, 0, 0, 0.8);
-  bottom: 0;
-  color: #ddd;
-  content: '\f04b';
-  font-family: fontAwesome;
-  font-size: 50px;
-  left: 0;
-  padding-top: 27%;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-}
-
-/*==== about us dynamic video player ====*/
-#about-video-popup {
-  background-color: rgba(0, 0, 0, 0.9);
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  text-align: center;
-  bottom: 0;
-  z-index: 99999;
-}
-#about-video-popup span {
-  color: #fff;
-  cursor: pointer;
-  float: right;
-  font-size: 30px;
-  margin-right: 50px;
-  margin-top: 50px;
-}
-#about-video-popup iframe {
-  background: url(../img/loader.gif) center center no-repeat;
-  margin: 10% auto;
-  width: 650px;
-  height: 450px;
-}
-
-.mu-title {
-  display: inline;
-  float: left;
-  text-align: center;
-  width: 100%;
-}
-.mu-title h2 {
-  color: #000;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-.mu-title p {
-  color: #555;
-  letter-spacing: 0.3px;
-  line-height: 1.7;
-  padding: 0 120px;
+  background-image: url("/images/img5.jpg");
+  overflow: hidden;
 }
 
 /*==================
